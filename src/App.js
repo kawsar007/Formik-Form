@@ -5,8 +5,8 @@ import SimpleForm from './Component/SimpleForm';
 function App() {
   return (
     <div className="App">
-      <SimpleForm/>
-      {/* <RefactorForm/> */}
+      {/* <SimpleForm/> */}
+      <RefactorForm/>
     </div>
   );
 }
