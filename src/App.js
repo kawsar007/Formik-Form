@@ -1,12 +1,18 @@
+import FormikContainer from './Advanced/FormikContainer';
 import './App.css';
-import RefactorForm from './Component/RefactorForm';
-import SimpleForm from './Component/SimpleForm';
+//import DisableSubmitForm from './Component/DisableSubmitForm';
+// import RefactorForm from './Component/RefactorForm';
+// import SimpleForm from './Component/SimpleForm';
 
 function App() {
   return (
     <div className="App">
       {/* <SimpleForm/> */}
-      <RefactorForm/>
+      {/* <RefactorForm/> */}
+      {/* <DisableSubmitForm/> */}
+
+      {/* Advanced Formik */}
+      <FormikContainer/>
     </div>
   );
 }
